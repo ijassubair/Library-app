@@ -59,4 +59,4 @@ app.post("/login",(req,res, next)=>{
 
 
 
-app.listen(5000,()=>console.log("server started"));
+app.listen(port,()=>console.log("server started"));
