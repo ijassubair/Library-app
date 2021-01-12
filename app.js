@@ -2,6 +2,8 @@ const express = require("express");
 const app = new express();
 app.use(express.json());
 app.use(express.urlencoded({ extended : true}));
+const port = process.env.PORT || 5000;
+
 const nav = [
     {
         link:"/books",name:"Books"
@@ -57,4 +59,4 @@ app.post("/login",(req,res, next)=>{
 
 
 
-app.listen(5000,()=>console.log("Http server started"));
+app.listen(5000,()=>console.log("server started"));
