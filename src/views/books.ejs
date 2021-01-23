@@ -55,7 +55,7 @@
         </h1>
       </div>
       <div class="col-md-5">
-        <div class="well well-lg"> 
+        <!-- <div class="well well-lg">  -->
           <div class="row">
             <div class="col-sm-12">
               
@@ -100,7 +100,14 @@
                   <h4><span class="label label-default"><%=books[i].author%></span></h4><h4>
                   <small style="font-family:courier,'new courier';" class="text-muted"><%=books[i].genre%><a href="/books/<%=i%>" class="text-muted"> • Read More</a></small>
                   </h4></div>
-                <div class="col-xs-3"></div>
+                <div class="col-xs-3">
+                  <button class="btn btn-primary">
+                    Edit
+                  </button>
+                  <button class="btn btn-danger">
+                    Delete
+                  </button>
+                </div>
               </div>
               <br><br>
             </div>

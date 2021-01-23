@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node app.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "IJAS SUBAIR K",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
   }
 }

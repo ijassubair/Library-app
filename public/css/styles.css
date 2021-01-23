@@ -20,14 +20,15 @@ footer {
   margin-top:40px;
   padding-top:40px;
   padding-bottom:40px;
-  background-color:#cecece;
+  background-color:#020202;
+  color: white;
  
 }
 
 
 #masthead {
   min-height:199px;
-  background-color:#e61c65;
+  background-color:#00c0e2;
   color:#aaaacc;
 }
 
@@ -40,8 +41,8 @@ footer {
 
 #masthead .well {
   margin-top:31px;
-  background-color:#e61c73;
-  border-color:#e221d9;
+  background-color:#00c0e2;
+  /* border-color:#0c0a0c; */
   color:#efefff;
   min-height:127px;
 }
@@ -82,7 +83,7 @@ a,a:hover {
 }
 
 .navbar-bright {
-  background-color:#fc2c77;
+  background-color:#0c090a;
   color:#fff;
   margin-bottom: 0;
   border-width: 0;
@@ -96,7 +97,7 @@ a,a:hover {
 }
 
 .navbar-bright li > a:hover {
-  background-color:#b003b0;
+  background-color:#ffffff;
 }
 
 .dropdown-menu {

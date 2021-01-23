@@ -10,6 +10,9 @@ const nav = [
     },
     {
         link:"/authors",name:"Authors"
+    },
+    {
+        link:"/admin",name:"Add Book"
     }
     ]
 const booksRouter = require("./src/routes/bookRoutes")(nav)
